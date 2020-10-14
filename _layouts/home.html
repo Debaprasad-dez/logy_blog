@@ -5,6 +5,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
@@ -32,17 +33,35 @@
     *{
        font-family: 'Poppins', sans-serif; 
     }
+    body{
+      background: rgb(250, 250, 250);
+    }
     p{
       font-size: 2vh;
     }
     #viewcar{
       border-radius: 50px;
     }
+    #viewcar2{
+      border-radius: 25px;
+    }
+    #minright{
+      font-size: 10px;
+      background: rgba(0, 132, 255, 0.8);
+    }
     #biglogy{
       float: right;
     }
     #infi{
       font-size: 8vh;
+    }
+    #foothot{
+      font-family: 'Raleway', sans-serif;
+    }
+    #footbot{
+      font-family: 'Open Sans', sans-serif;
+      font-size: 16px;
+      font-weight: 500;
     }
     .carousel .carousel-control-prev-icon {
     background-image: none;
@@ -55,6 +74,9 @@
     }
     @media screen and (max-width: 992px) {
        #viewcar {
+          border-radius: 15px;
+        }
+       #viewcar2 {
           border-radius: 15px;
         }
         #biglogy{
@@ -112,18 +134,9 @@
 
 
 
-<div class="container">
-    <div class="row mb-5 pb-5 mt-5 mx-1" style="border-radius: 25px;border-bottom: solid 3px black;">
-        <div class="col-md-7">
-            <p id="infi" >India's first Auto-ML Healthcare Platform</p>
-        </div>
-      
-
-        <div class="col-md-5">
-            <p class="mt-auto mb-auto" id="biglogy" style="font-size: 10vh;font-family: 'Poppins', sans-serif;font-weight: 600;">Logy.<span style="color: rgb(53, 138, 235);">AI</span></p>
-        </div>
-    </div>
-    <p class="text-center h4" style="color: rgb(53, 138, 235);">We help you build rapid and scalable Healthcare AI models</p>
+<div class="container mt-3">
+    
+    <p class="text-center h4" style="color: rgb(53, 138, 235);"> We help you bring your ideas to reality</p>
 </div>
 
 
@@ -138,7 +151,7 @@
 
 
 
- <div class="container mt-5">
+ <div class="container mt-3 mb-5">
      <!--Carousel Wrapper-->
 <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
     <!--Indicators-->
@@ -153,7 +166,7 @@
           <div class="mask rgba-black-strong"></div>
         </div>
         <div class="carousel-caption mb-n5 text-left">
-          <h4>Jan Swasthya Sahyog | Ganiyari </h4>
+          <h4 style="font-size: auto;">Jan Swasthya Sahyog | Ganiyari </h4>
           <p>2 minutes read</p>
         </div>
       </div>
@@ -165,8 +178,8 @@
           <div class="mask rgba-black-strong"></div>
         </div>
         <div class="carousel-caption mb-n5 text-left">
-          <h5 class="">Psychology of Memory | Is it dark enough?
-          </h5>
+          <h4 class="" style="font-size: auto;">Psychology of Memory | Is it dark enough?
+          </h4>
           <p>3 minutes read</p>
         </div>
       </div>
@@ -178,7 +191,7 @@
           <div class="mask rgba-black-strong"></div>
         </div>
         <div class="carousel-caption mb-n5 text-left">
-          <h4 class="">Let's Start Dreaming
+          <h4 class="" style="font-size: auto;">Let's Start Dreaming
           </h4>
           <p>4 minutes read</p>
         </div>
@@ -201,66 +214,72 @@
  <div class="container mt-4 mb-4">
      <div class="row">
          <div class="col-md-8">
-          <h1 style="font-weight: 800;">Latest Posts</h1>
-          <hr class="w-50 mx-0 black">
-            <div class="row">
-        
-
-                <div class="card col-md-3 m-3 px-0" style="box-shadow: none;border-bottom: solid 4px rgb(44, 152, 241);border-radius: 15px;">
-                  <img class="card-img-top" style="border-radius: 15px;" src="https://cdn.dribbble.com/users/59947/screenshots/13914361/media/e635ea79bce82fc0e235330d8b674b73.jpg" alt="Card image cap">
-                  <div class="card-body" style="background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(231, 231, 231, 0.5));border-radius: 0 0 15px 15px;">
-                    <h5 class="card-title">Jan Swasthya Sahyog | Ganiyari</h5>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    <a href="" class="card-link px-3 rounded-pill text-light bg-dark ">Read</a>
-                  </div>
-                </div>
-                <div class="card col-md-3 m-3 px-0" style="box-shadow: none;border-bottom: solid 4px rgb(44, 152, 241);border-radius: 15px;">
-                  <img class="card-img-top" style="border-radius: 15px;" src="https://cdn.dribbble.com/users/59947/screenshots/13914361/media/e635ea79bce82fc0e235330d8b674b73.jpg" alt="Card image cap">
-                  <div class="card-body" style="background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(231, 231, 231, 0.5));border-radius: 0 0 15px 15px;">
-                    <h5 class="card-title">Let's Start Dreaming</h5>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    <a href="" class="card-link px-3 rounded-pill text-light bg-dark ">Read</a>
-                  </div>
-                </div>
-                <div class="card col-md-3 m-3 px-0" style="box-shadow: none;border-bottom: solid 4px rgb(44, 152, 241);border-radius: 15px;">
-                  <img class="card-img-top" style="border-radius: 15px;" src="https://cdn.dribbble.com/users/59947/screenshots/13914361/media/e635ea79bce82fc0e235330d8b674b73.jpg" alt="Card image cap">
-                  <div class="card-body" style="background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(231, 231, 231, 0.5));border-radius: 0 0 15px 15px;">
-                    <h5 class="card-title">GSoC'19 | A New Beginning</h5>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    <a href="" class="card-link px-3 rounded-pill text-light bg-dark ">Read</a>
-                  </div>
-                </div>
-                <div class="card col-md-3 m-3 px-0" style="box-shadow: none;border-bottom: solid 4px rgb(44, 152, 241);border-radius: 15px;">
-                  <img class="card-img-top" style="border-radius: 15px;" src="https://cdn.dribbble.com/users/59947/screenshots/13914361/media/e635ea79bce82fc0e235330d8b674b73.jpg" alt="Card image cap">
-                  <div class="card-body" style="background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(231, 231, 231, 0.5));border-radius: 0 0 15px 15px;">
-                    <h5 class="card-title">Psychology of Memory | Is it dark enough?</h5>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    <a href="" class="card-link px-3 rounded-pill text-light bg-dark ">Read</a>
-                  </div>
-                </div>
-                <div class="card col-md-3 m-3 px-0" style="box-shadow: none;border-bottom: solid 4px rgb(44, 152, 241);border-radius: 15px;">
-                  <img class="card-img-top" style="border-radius: 15px;" src="https://cdn.dribbble.com/users/59947/screenshots/13914361/media/e635ea79bce82fc0e235330d8b674b73.jpg" alt="Card image cap">
-                  <div class="card-body" style="background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(231, 231, 231, 0.5));border-radius: 0 0 15px 15px;">
-                    <h5 class="card-title">Psychology of Memory | Is it dark enough?</h5>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    <a href="" class="card-link px-3 rounded-pill text-light bg-dark ">Read</a>
-                  </div>
-                </div>
-                <div class="card col-md-3 m-3 px-0" style="box-shadow: none;border-bottom: solid 4px rgb(44, 152, 241);border-radius: 15px;">
-                  <img class="card-img-top" style="border-radius: 15px;" src="https://cdn.dribbble.com/users/59947/screenshots/13914361/media/e635ea79bce82fc0e235330d8b674b73.jpg" alt="Card image cap">
-                  <div class="card-body" style="background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(231, 231, 231, 0.5));border-radius: 0 0 15px 15px;">
-                    <h5 class="card-title">Psychology of Memory | Is it dark enough?</h5>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    <a href="" class="card-link px-3 rounded-pill text-light bg-dark ">Read</a>
-                  </div>
-                </div>
-        
-        
+          <h1 style="font-weight: 400;">Latest Posts</h1>
           
-              </div>
+          <hr class="w-50 mx-0 black">
+          <div class="container bcontent my-3" >
+            <div class="card" style="width: auto;box-shadow: none;background: rgba(0, 0, 0, 0.034);border-radius: 25px;">
+                <div class="row no-gutters">
+                    <div class="col-sm-6">
+                        <img class="card-img" id="viewcar2" src="https://cdn.dribbble.com/users/59947/screenshots/13914361/media/e635ea79bce82fc0e235330d8b674b73.jpg" alt="Suresh Dasari Card">
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card-body">
+                            <h5 class="card-title">Psychology of Memory | Is it dark enough?</h5>
+                            <p class="card-text">Psychology of Memory | Is it dark enough? Psychology of Memory | Is it dark enough?</p>
+                            <p>October 13, 2020
+                              <hr class="w-50 mx-0">
+                            </p>
+                            <a class="bg-dark w-auto text-light px-2 rounded-pill">3 minutes read</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          <div class="container bcontent my-3" >
+            <div class="card" style="width: auto;box-shadow: none;background: rgba(0, 0, 0, 0.034);border-radius: 25px;">
+                <div class="row no-gutters">
+                    <div class="col-sm-6">
+                        <img class="card-img" id="viewcar2" src="https://cdn.dribbble.com/users/59947/screenshots/13914361/media/e635ea79bce82fc0e235330d8b674b73.jpg" alt="Suresh Dasari Card">
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card-body">
+                            <h5 class="card-title">Psychology of Memory | Is it dark enough?</h5>
+                            <p class="card-text">Psychology of Memory | Is it dark enough? Psychology of Memory | Is it dark enough?</p>
+                            <p>October 13, 2020
+                              <hr class="w-50 mx-0">
+                            </p>
+                            <a class="bg-dark w-auto text-light px-2 rounded-pill">3 minutes read</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          <div class="container bcontent my-3" >
+            <div class="card" style="width: auto;box-shadow: none;background: rgba(0, 0, 0, 0.034);border-radius: 25px;">
+                <div class="row no-gutters">
+                    <div class="col-sm-6">
+                        <img class="card-img" id="viewcar2" src="https://cdn.dribbble.com/users/59947/screenshots/13914361/media/e635ea79bce82fc0e235330d8b674b73.jpg" alt="Suresh Dasari Card">
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card-body">
+                            <h5 class="card-title">Psychology of Memory | Is it dark enough?</h5>
+                            <p class="card-text">Psychology of Memory | Is it dark enough? Psychology of Memory | Is it dark enough?</p>
+                            <p>October 13, 2020
+                              <hr class="w-50 mx-0">
+                            </p>
+                            <a class="bg-dark w-auto text-light px-2 rounded-pill">3 minutes read</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+          
+            
          </div>
-         <div class="col-4">
-             <h1 style="font-weight: 800;">Featured</h1>
+         <div class="col-4 static">
+             <h1 style="font-weight: 400;">Featured</h1>
              <hr class="w-50 mx-0 black">
 
 
@@ -269,7 +288,7 @@
                 <h5 class="card-title">Psychology of Memory | Is it dark enough?</h5>
                 <h6 class="card-subtitle mb-2 text-muted">category</h6>
                 <a href="#" class="card-link">Read</a>
-                <a  class="card-link px-2 rounded-pill text-light bg-dark ">3 minutes read</a>
+                <a  class="card-link px-2 rounded-pill text-light  " id="minright">3 minutes read</a>
               </div>
             </div>
              <div class="card my-2" style="width: 18rem;box-shadow: none;background: rgba(0, 140, 255, 0.100);border-radius: 0;">
@@ -277,7 +296,7 @@
                 <h5 class="card-title">Psychology of Memory | Is it dark enough?</h5>
                 <h6 class="card-subtitle mb-2 text-muted">category</h6>
                 <a href="#" class="card-link">Read</a>
-                <a  class="card-link px-2 rounded-pill text-light bg-dark ">3 minutes read</a>
+                <a  class="card-link px-2 rounded-pill text-light  " id="minright">3 minutes read</a>
               </div>
             </div>
              <div class="card my-2" style="width: 18rem;box-shadow: none;background: rgba(0, 140, 255, 0.100);border-radius: 0;">
@@ -285,7 +304,7 @@
                 <h5 class="card-title">Psychology of Memory | Is it dark enough?</h5>
                 <h6 class="card-subtitle mb-2 text-muted">category</h6>
                 <a href="#" class="card-link">Read</a>
-                <a  class="card-link px-2 rounded-pill text-light bg-dark ">3 minutes read</a>
+                <a  class="card-link px-2 rounded-pill text-light  " id="minright">3 minutes read</a>
               </div>
             </div>
              <div class="card my-2" style="width: 18rem;box-shadow: none;background: rgba(0, 140, 255, 0.100);border-radius: 0;">
@@ -293,7 +312,7 @@
                 <h5 class="card-title">Psychology of Memory | Is it dark enough?</h5>
                 <h6 class="card-subtitle mb-2 text-muted">category</h6>
                 <a href="#" class="card-link">Read</a>
-                <a  class="card-link px-2 rounded-pill text-light bg-dark ">3 minutes read</a>
+                <a  class="card-link px-2 rounded-pill text-light  " id="minright">3 minutes read</a>
               </div>
             </div>
 
@@ -302,45 +321,99 @@
      </div>
     
  </div>
- <footer class="bg-dark">
-    <div class="container pt-5 pb-5">
-        <div class="row pt-5 pb-5">
-            <div class="col-md-2">
-                <h3 class="text-white" style="font-family: 'Poppins', sans-serif;font-weight: 600;">Logy.<span style="color: rgb(53, 138, 235);">AI</span> </h3>
-                <p class="text-light mt-5">Copyright © Nex Fitzap Private Limited</p>
-            </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-9">
-                <h5 class="w-75 mr-auto " style="font-size: 2.53vh;font-weight: 400;color: rgb(107, 107, 107);">Build quality Artificial Intelligence with minimum effort and without writing a single line of code. We help you bring your ideas to reality with user-friendly AI building tools. (Legal name of the company: Nex Fitzap Private Limited)
-                </h5>
-                <div class="row w-75 mr-auto text-light mt-5">
-                    <div class="col-md-4">
-                        <h5 class="text-primary" style="font-weight:600 ;">PRODUCTS</h5>
-                        <hr class="w-50 mx-0 white mt-0">
-                        <p>Dental AI</p>
-                        <p>AutoML Platform</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h5 class="text-primary" style="font-weight:600 ;">USEFUL LINKS</h5>
-                        <hr class="w-50 mx-0 white mt-0">
-                        <p>DentalAI Pricing</p>
-                        <p>Privacy Policy</p>
-                        <p>Terms and Conditions / Cancellation Policy</p>
-                        
-                    </div>
-                    <div class="col-md-4">
-                        <h5 class="text-primary" style="font-weight:600 ;">CONTACT</h5>
-                        <hr class="w-50 mx-0 white mt-0">
-                        <p><i class="fa fa-home mr-3" aria-hidden="true"></i> India / Singapore</p>
-                        <p><i class="fa fa-envelope mr-3" aria-hidden="true"></i> humans@logy.ai</p>
-                        <p><i class="fa fa-phone mr-3" aria-hidden="true"></i> +91 70019 72016</p>
-                    </div>
-                    
-                </div>
-            </div>
-        </div>
-    </div>
- </footer>
+ <footer class="page-footer font-small unique-color-white text-dark pt-3" style="background: white;">
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5">
+
+      <!-- Grid row -->
+      <div class="row mt-3">
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+              <!-- Content -->
+              <h6 class="text-uppercase font-weight-bold" id="foothot">Logy.AI</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p id="footbot">Build quality Artificial Intelligence with minimum effort and without writing a single line of code.
+                  We help you bring your ideas to reality with user-friendly AI building tools. (Legal name of the company: Nex Fitzap Private Limited)
+                  </p>
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+              <!-- Links -->
+              <h6 class="text-uppercase font-weight-bold" id="foothot">Products</h6>
+              <hr class=" mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p >
+                  <a class="text-primary" id="footbot" href="portal.html">Dental AI</a>
+              </p>
+              <p>
+                  <a class="text-primary" id="footbot" href="https://portal.logy.ai">AutoML Platform</a>
+              </p>
+            <!--  <p>
+                  <a href="#!">Pricing</a>
+              </p> -->
+              
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+              <!-- Links -->
+              <h6 class="text-uppercase font-weight-bold" id="foothot">Useful links</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p>
+                  <a class="text-primary" id="footbot" href="dentalai_pricing.html">DentalAI Pricing</a>
+              </p>
+              <p>
+                  <a class="text-primary" id="footbot" href="privacy.html">Privacy Policy</a>
+              </p>
+              <p>
+                  <a class="text-primary" id="footbot" href="terms_and_conditions.html">Terms and Conditions / Cancellation Policy</a>
+              </p>
+              
+              
+
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+              <!-- Links -->
+              <h6 class="text-uppercase font-weight-bold" id="foothot">Contact</h6>
+              <hr class=" mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p id="footbot">
+                  <i class="fa fa-home mr-3"></i> India / Singapore</p>
+              <p id="footbot">
+                  <i class="fa fa-envelope mr-3"></i> humans@logy.ai</p>
+              <p id="footbot">
+                  <i class="fa fa-phone mr-3"></i> +91 70019 72016</p>
+              
+
+          </div>
+          <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 text-dark" style="background: white;" id="footbot"> Copyright ©
+      <a class="text-primary" id="footbot" href="https://logy.ai"> Nex Fitzap Private Limited</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
 
 </body>
 </html>
